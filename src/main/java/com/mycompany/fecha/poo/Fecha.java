@@ -5,19 +5,18 @@ public class Fecha {
 
 public class Fecha {
     // TODO: Aquí va el código de la clase fechas
-    public class Fecha {
-    
     private int dia;
     private int mes;
     private int anno;
-    public Fecha (int dia, int mes, int anno){
+
+    public Fecha(int dia, int mes, int anno){
         this.dia = dia;
         this.mes = mes;
         this.anno = anno;
     }
 
     public String fechaCorta(){
-       return String.format("%02d/%02d/%04d", dia,mes,anno);
+       return String.format("%02d/%02d/%04d", dia, mes, anno);
     }
     
     public boolean validarFecha() {
@@ -56,9 +55,9 @@ public class Fecha {
     }
     
     public String fechaLarga(){
-        return String.format("%d de %s de %d", dia, mesLetra(), anio);
+        return String.format("%d de %s de %d", dia, mesLetra(), anno);
     }
-  }
 }
 
-}
+    
+ 
